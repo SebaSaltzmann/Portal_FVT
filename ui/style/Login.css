@@ -1,11 +1,19 @@
+/* fondo */
+body {
+    background-image: url('img/fondo de pagina hospital 2.png');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
 /* Variables */
 :root {
     --body-bg: #c1bdba;
     --form-bg: #13232f;
     --blanco: #fff;
     --color-principal: #1ab188;
-    --color-principal-light: #23b999; /* lighten(#1ab188, 5%) */
-    --color-principal-dark: #189d7a; /* darken(#1ab188, 5%) */
+    --color-principal-light: #23b999;
+    --color-principal-dark: #189d7a;
     --gris-light: #a0b3b0;
     --gris: #ddd;
     --thin: 300;
