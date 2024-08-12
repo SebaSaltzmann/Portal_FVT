@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class RegisterConfig(AppConfig):
+class PortaldecuentaConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'register'
+    name = 'PortalDeCuenta'
