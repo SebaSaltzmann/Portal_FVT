@@ -1,14 +1,6 @@
-/* fondo */
-body {
-    background-image: url('img/fondo de pagina hospital 2.png');
-    background-size: cover; 
-    background-repeat: no-repeat;
-    background-position: center center;
-}
 
 /* Variables */
 :root {
-    --body-bg: #c1bdba;
     --form-bg: #13232f;
     --blanco: #fff;
     --color-principal: #1ab188;
@@ -34,8 +26,12 @@ body {
 }
 
 body {
-    background: var(--body-bg);
     font-family: var(--fuente-principal);
+    background-image: url('/ui/img/fondopaginahospital2.png');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    
 }
 
 a {
@@ -110,7 +106,6 @@ label {
     left: 13px;
     color: rgba(var(--blanco), 0.5);
     transition: all 0.25s ease;
-    -webkit-backface-visibility: hidden;
     pointer-events: none;
     font-size: 22px;
 }
@@ -188,7 +183,6 @@ input:focus {
     background: var(--color-principal);
     color: var(--blanco);
     transition: all .5s ease;
-    -webkit-appearance: none;
 }
 
 .button:hover,
