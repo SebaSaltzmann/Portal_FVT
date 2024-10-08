@@ -3,79 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-
-
     <link href="https://fonts.googleapis.com/css?family=Raleway|Ubuntu" rel="stylesheet">
-
-    <link rel="stylesheet" href="{% static 'styles/Login.css' %}">
-
-    <title>Formulario Login y Registro de Usuarios</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'styles/styles.css' %}">
+    <link rel="stylesheet" href="{% static 'styles/login_register.css' %}">
+    <title>Registro de Usuarios</title>
 </head>
 <body>
-
-
-    <div class="contenedor-formularios">
-
-        <ul class="contenedor-tabs">
-            <li class="tab tab-segunda active"><a href="#iniciar-sesion">Iniciar Sesión</a></li>
-            <li class="tab tab-primera"><a href="#registrarse">Registrarse</a></li>
-        </ul>
-
-
-        <div class="contenido-tab">
-            
-            <div id="registrarse">
-                <h1>Registrarse</h1>
-                <form action="#" method="post">
-                    <div class="fila-arriba">
-                        <div class="contenedor-input">
-                            <label>
-                                Nombre <span class="req">*</span>
-                            </label>
-                            <input type="text" required >
-                        </div>
-
-                        <div class="contenedor-input">
-                            <label>
-                                Apellido <span class="req">*</span>
-                            </label>
-                            <input type="text" required>
-                        </div>
-                    </div>
-                    <div class="contenedor-input">
-                        <label>
-                            Usuario <span class="req">*</span>
-                        </label>
-                        <input type="text" required>
-                    </div>
-                    <div class="contenedor-input">
-                            <label>
-                                Email <span class="req">*</span>
-                            </label>
-                        <input type="email" required>
-                    </div>
-                    <div class="contenedor-input">
-                        <label>
-                            Contraseña <span class="req">*</span>
-                        </label>
-                        <input type="password" required>
-                    </div>
-
-                    <div class="contenedor-input">
-                        <label>
-                            Repetir Contraseña <span class="req">*</span>
-                        </label>
-                        <input type="password" required>
-                    </div>
-
-                    <input type="submit" class="button button-block" value="Registrarse">
-                </form>
-            </div>
+    <div class="contenedor-register">
+        <img src="" alt="user-reptresentation">
+        <div class="content">
+            <input type="text" placeholder="Nombre">
+            <input type="text" placeholder="Email">
+            <input type="text" placeholder="Contraseña">
+            <input type="text" placeholder="Contraseña Nuevamente">
+            <button>Registrarse</button>
+            <p>¿Tenés una cuenta creada? <a href="">iniciá sesión ahora</a></p>
         </div>
     </div>
-
-   <script src="prueba_de_scrip.js"></script>
-   <script src="js/main.js"></script>
-
 </body>
 </html>
