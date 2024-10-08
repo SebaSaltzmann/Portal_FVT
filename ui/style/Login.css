@@ -1,11 +1,11 @@
 
 /* Variables */
 :root {
-    --form-bg: #13232f;
+    --form-bg: #3B89AC;
     --blanco: #fff;
-    --color-principal: #1ab188;
-    --color-principal-light: #23b999;
-    --color-principal-dark: #189d7a;
+    --color-principal: #3B89AC;
+    --color-principal-light: #3b88acb4;
+    --color-principal-dark: #3B89AC;
     --gris-light: #a0b3b0;
     --gris: #ddd;
     --thin: 300;
@@ -45,12 +45,12 @@ a:hover {
 }
 
 .contenedor-formularios {
-    background: rgba(19, 35, 47, 0.9);
+    background: #002535;
     padding: 40px;
     max-width: 600px;
     margin: 40px auto;
     border-radius: var(--br);
-    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+    box-shadow: 0 4px 10px 4px #0025352c;
 }
 
 .contenedor-tabs {
