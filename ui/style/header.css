@@ -1,0 +1,28 @@
+
+.encabezado {
+    display: flex; /* Activa el modo flex */
+    justify-content: space-between; /* Espacio entre elementos */
+    align-items: center; /* Centra verticalmente */
+    padding: 10px 20px; /* Espaciado interno */
+    background-color: #22646E; /* Color de fondo */
+}
+
+.logo {
+    color: white; /* Color del texto del logo */
+}
+
+.navigation ul {
+    list-style: none; /* Elimina viñetas */
+    display: flex; /* Muestra los enlaces en línea */
+}
+
+.navigation li {
+    margin-left: 20px; /* Espaciado entre enlaces */
+}
+
+.navigation a {
+    color: white; /* Color de texto de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+    font-size: 24px;
+}
+
