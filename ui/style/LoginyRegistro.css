@@ -186,8 +186,7 @@ input:focus {
     transition: all .5s ease;
 }
 
-.button:hover,
-.button:focus {
+.button:hover,.button:focus {
     background: var(--color-principal-dark);
 }
 
