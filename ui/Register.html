@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -15,61 +15,40 @@
 
 
     <div class="contenedor-formularios">
+                <ul class="contenedor-tabs">
+                    <li class="tab tab-segunda"><a href="Login.html">Iniciar Sesión</a></li>
+                    <li class="tab tab-primera active"><a href="Register.html">Registrarse</a></li>
+                </ul>
 
-        <ul class="contenedor-tabs">
-            <li class="tab tab-segunda active"><a href="#iniciar-sesion">Iniciar Sesión</a></li>
-            <li class="tab tab-primera"><a href="#registrarse">Registrarse</a></li>
-        </ul>
+                <div id="#registrarse">
+                    <h1>Registrarse</h1>
+                    <form action="#" method="post">
+                        <div class="fila-arriba">
+                            <div class="contenedor-input">
+                                <input type="text" required placeholder="* Nombre">
+                            </div>
 
-
-        <div class="contenido-tab">
-            
-            <div id="registrarse">
-                <h1>Registrarse</h1>
-                <form action="#" method="post">
-                    <div class="fila-arriba">
+                            <div class="contenedor-input">
+                                <input type="text" required placeholder="* Apellido">
+                            </div>
+                        </div>
                         <div class="contenedor-input">
-                            <label>
-                                Nombre <span class="req">*</span>
-                            </label>
-                            <input type="text" required >
+                            <input type="text" required placeholder="* Usuario">
+                        </div>
+                        <div class="contenedor-input">
+                            <input type="email" required placeholder="* Email">
+                        </div>
+                        <div class="contenedor-input">
+                            <input type="password" required placeholder="* Contraseña">
                         </div>
 
                         <div class="contenedor-input">
-                            <label>
-                                Apellido <span class="req">*</span>
-                            </label>
-                            <input type="text" required>
+                            <input type="password" required placeholder="Verificación Contraseña">
                         </div>
-                    </div>
-                    <div class="contenedor-input">
-                        <label>
-                            Usuario <span class="req">*</span>
-                        </label>
-                        <input type="text" required>
-                    </div>
-                    <div class="contenedor-input">
-                            <label>
-                                Email <span class="req">*</span>
-                            </label>
-                        <input type="email" required>
-                    </div>
-                    <div class="contenedor-input">
-                        <label>
-                            Contraseña <span class="req">*</span>
-                        </label>
-                        <input type="password" required>
-                    </div>
 
-                    <div class="contenedor-input">
-                        <label>
-                            Repetir Contraseña <span class="req">*</span>
-                        </label>
-                        <input type="password" required>
-                    </div>
-
-                    <input type="submit" class="button button-block" value="Registrarse">
-                </form>
+                        <input type="submit" class="button button-block" value="Registrarse">
+                    </form>
+                </div>
             </div>
         </div>
     </div>
