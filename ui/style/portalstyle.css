@@ -11,21 +11,40 @@ body {
 /* Contenedor principal */
 .container {
     display: flex;
-    width: 80%;
+    width: 70%;
     height: 60%;
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
+.row {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    width: 100%;
+    max-width: 600px; 
+    gap: 15px;
+}
 /* Cuadro de la izquierda (información del paciente) */
 .left {
-    width: 25%;
-    background-color: #A9D1E6; /* Fondo celeste */
+    width: 80%;
+    background-color: rgba(59, 137, 172, 0.7); 
     padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
+    border-radius: 20px;
+}
+
+.align-img {
+    display: flex;
     align-items: center;
+}
+
+.profile-image {
+    width: 50px; 
+    height: 50px;
+    border-radius: 100%; 
+    margin-right: 10px; 
 }
 
 .left h2 {
@@ -38,14 +57,18 @@ body {
     margin-bottom: 10px;
 }
 
+
 /* Cuadro de la derecha (botones) */
 .right {
-    width: 25%;
+    background-color: rgba(59, 137, 172, 0.7); 
+    width: 70%;
+    height: 50%;
     padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 20px;
 }
 
 .right h3 {
